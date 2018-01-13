@@ -5,18 +5,78 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Just+Another+Hand" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <title>Hello, world!</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <title>Vanessa White</title>
   </head>
   <body>
+    <section id="logo">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <img src="img/vanessa-white-strk.png" class="img-fluid"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Hard work is being mostly done. Hopefully my site will be ready to launch in...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="countdown"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="icons">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="list-inline">
+              <a href="https://twitter.com/assenavmai" target="_blank"><li class="list-inline-item"><i class="twitter fa fa-twitter-square fa-3x" aria-hidden="true"></i></li></a>
+              <a href="https://www.linkedin.com/in/vawhite1/" target="_blank"><li class="list-inline-item"><i class="linkedin fa fa-linkedin-square fa-3x" aria-hidden="true"></i></li></a>
+              <a href="https://github.com/assenavmai" target="_blank"><li class="list-inline-item"><i class="github fa fa-github-square fa-3x" aria-hidden="true"></i></li></a>
+              <a href="https://www.flickr.com/photos/assenavmai/" target="_blank"><li class="list-inline-item"><i class="flickr fa fa-flickr fa-3x" aria-hidden="true"></i></li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+    <script>
+      $(function() {
+        $('.countdown').countdown({
+          date: "June 1, 2018 19:00:00"
+        });
+      });
+    </script>
+
   </body>
 </html>
