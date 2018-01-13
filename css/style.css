@@ -1,0 +1,57 @@
+html, body {
+  background:url('../img/bg.jpg') center center no-repeat;
+  height: 100%;
+  background-size: cover;
+    )
+}
+
+#logo img {
+  margin: 0 auto !important;
+  padding-top:20px;
+}
+
+#intro p {
+  color:white;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1.8em;
+}
+
+#counter .countdown {
+  text-align: center;
+  color:white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  margin:-15px 0 0;
+}
+
+#icons {
+  text-align: center;
+}
+
+#icons .fa {
+  color: white;
+  margin: 5px 15px;
+  position: relative;
+  bottom: 0;
+  transition:all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+  color:#1DA1F2;
+  bottom:5px;
+}
+
+#icons .linkedin:hover {
+  color:#0077B5;
+  bottom:5px;
+}
+
+#icons .github:hover {
+  color:#000000;
+  bottom:5px;
+}
+#icons .flickr:hover {
+  color:#0063DC;
+  bottom:5px;
+}
